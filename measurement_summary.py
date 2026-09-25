@@ -15,7 +15,7 @@ for measurement in measurements:
 # 4. add each value to total;
     total = total + measurement
 # 5. use if and else so a value at or above review_threshold is labeled review, while a lower value is labeled within range;
-    if total >= review_threshold:
+    if measurement >= review_threshold:
         print("Measurement: ", measurement, "review")
 # 6. add one to review_count only for a value labeled review;
         review_count = review_count + 1
