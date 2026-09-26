@@ -28,3 +28,5 @@ measurement_mean = total/count
 # 9. print the summary labels shown below using print() with comma-separated values. The supplied data gives a mean of 20.5; no rounding or text formatting is needed.
 print("Mean: ", measurement_mean)
 print("Review count:", review_count)
+
+#print len(measurement - 1)
